@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rafsanjani.drawer.FXMLController">
+   <children>
+      <ToolBar prefHeight="40.0" prefWidth="200.0">
+        <items>
+          <Button fx:id="menu" mnemonicParsing="false" text="Button" />
+        </items>
+      </ToolBar>
+      <StackPane alignment="CENTER_LEFT" prefHeight="150.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+         <children>
+            <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="465.0" prefWidth="500.0" style="-fx-background-color: #879;">
+               <children>
+                  <VBox fx:id="drawer" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="465.0" prefWidth="180.0" style="-fx-background-color: #435;" translateX="-180.0" HBox.hgrow="NEVER" />
+               </children>
+            </HBox>
+         </children>
+      </StackPane>
+   </children>
+</VBox>
